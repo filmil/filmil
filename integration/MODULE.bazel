@@ -1,0 +1,21 @@
+module(name= "integration", version = "0.0.0")
+
+
+bazel_dep(name = "rules_nvc", version = "1.0.0")
+
+
+bazel_dep(name = "rules_osvvm", version = "0.0.0")
+local_path_override(
+    module_name = "rules_osvvm",
+    path = "../",
+)
+
+
+bazel_dep(name = "toolchains_llvm", version = "1.6.0", dev_dependency = True)
+llvm = use_extension("@toolchains_llvm//toolchain/extensions:llvm.bzl", "llvm", dev_dependency = True)
+llvm.toolchain(
+    name = "llvm_toolchain",
+    llvm_version = "20.1.4",
+)
+use_repo(llvm, "llvm_toolchain")
+register_toolchains("@llvm_toolchain//:all", dev_dependency = True)

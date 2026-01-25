@@ -1,0 +1,22 @@
+load("@rules_nvc//build/nvc:rules.bzl", "vhdl_library")
+load("@rules_shell//shell:sh_test.bzl", "sh_test")
+
+package(default_visibility = ["//visibility:public"])
+
+vhdl_library(
+    name = "osvvm",
+    # do not sort
+    srcs = [
+        "//third_party:srcs1",
+        "//third_party:srcs2_nvc",
+        "//third_party:srcs",
+    ],
+    standard = "2019",
+)
+
+sh_test(
+    name = "test",
+    srcs = [
+        "test.bash",
+    ],
+)

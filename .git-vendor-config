@@ -1,0 +1,7 @@
+# This is a git-vendor config file.
+# For details see https://github.com/thejoshwolfe/git-vendor/blob/main/README.md#reference
+
+dir=third_party/osvvm
+url=https://github.com/osvvm/osvvm
+follow-branch=main
+commit=708c811d92806b3cea3e625c3c01f73f5a2ce228

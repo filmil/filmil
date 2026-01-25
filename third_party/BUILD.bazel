@@ -1,0 +1,65 @@
+package(default_visibility = ["//visibility:public"])
+
+filegroup(
+    name ="srcs1",
+    # do not sort
+    srcs = [
+       "//third_party:osvvm/IfElsePkg.vhd",
+       "//third_party:osvvm/NamePkg.vhd",
+       "//third_party:osvvm/OsvvmGlobalPkg.vhd",
+       "//third_party:osvvm/OsvvmScriptSettingsPkg.vhd",
+       "//third_party:osvvm/TranscriptPkg.vhd",
+       "//third_party:osvvm/TextUtilPkg.vhd",
+       "//third_party:osvvm/FileUtilPkg.vhd",
+    ],
+)
+
+filegroup(
+    name ="srcs2_nvc",
+    # do not sort
+    srcs = [
+        #CoverageVendorApiPkg_Aldec.vhd",
+       "//third_party:osvvm/CoverageVendorApiPkg_NVC.vhd",
+        #"CoverageVendorApiPkg_default.vhd",
+    ],
+)
+
+filegroup(
+    name ="srcs",
+    # do not sort
+    srcs = [
+       "//third_party:osvvm/FileLinePathPkg.vhd",
+        #"deprecated/FileLinePathPkg_c.vhd",
+       "//third_party:osvvm/LanguageSupport2019Pkg.vhd",
+       "//third_party:osvvm/OsvvmSettingsPkg.vhd",
+       "//third_party:osvvm/AlertLogPkg.vhd",
+       "//third_party:osvvm/ResolutionPkg.vhd",
+       "//third_party:osvvm/TbUtilPkg.vhd",
+       "//third_party:osvvm/SortListPkg_int.vhd",
+       "//third_party:osvvm/RandomBasePkg.vhd",
+       "//third_party:osvvm/RandomProcedurePkg.vhd",
+       "//third_party:osvvm/OsvvmTypesPkg.vhd",
+       "//third_party:osvvm/RandomPkg.vhd",
+       "//third_party:osvvm/NameStorePkg.vhd",
+       "//third_party:osvvm/MessageListPkg.vhd",
+       "//third_party:osvvm/MemorySupportPkg.vhd",
+       "//third_party:osvvm/CoveragePkg.vhd",
+       "//third_party:osvvm/ClockResetPkg.vhd",
+       "//third_party:osvvm/MemoryGenericPkg.vhd",
+       "//third_party:osvvm/MemoryPkg.vhd",
+       "//third_party:osvvm/MessagePkg.vhd",
+       "//third_party:osvvm/RandomPkg2019.vhd",
+       "//third_party:osvvm/DelayCoveragePkg.vhd",
+       "//third_party:osvvm/ResizePkg.vhd",
+       "//third_party:osvvm/ScoreboardGenericPkg.vhd",
+       "//third_party:osvvm/ScoreboardPkg_IntV.vhd",
+       "//third_party:osvvm/ScoreboardPkg_int.vhd",
+       "//third_party:osvvm/ScoreboardPkg_signed.vhd",
+       "//third_party:osvvm/ScoreboardPkg_slv.vhd",
+       "//third_party:osvvm/ScoreboardPkg_unsigned.vhd",
+       "//third_party:osvvm/ReportPkg.vhd",
+       "//third_party:osvvm/OsvvmScriptSettingsPkg_default.vhd",
+       "//third_party:osvvm/OsvvmSettingsPkg_default.vhd",
+       "//third_party:osvvm/OsvvmContext.vhd",
+    ],
+)

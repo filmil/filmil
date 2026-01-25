@@ -1,0 +1,43 @@
+Starting local Bazel server (9.0.0) and connecting to it...
+Computing main repo mapping:
+Computing main repo mapping:
+Computing main repo mapping:
+Computing main repo mapping:
+Computing main repo mapping:
+Computing main repo mapping:
+Computing main repo mapping:
+Loading:
+Loading: 0 packages loaded
+Analyzing: 5 targets (3 packages loaded)
+Analyzing: 5 targets (3 packages loaded)
+Analyzing: 5 targets (7 packages loaded)
+Analyzing: 5 targets (7 packages loaded, 6 targets configured)
+Analyzing: 5 targets (7 packages loaded, 6 targets configured)
+
+Analyzing: 5 targets (14 packages loaded, 52 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (18 packages loaded, 52 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (34 packages loaded, 52 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (84 packages loaded, 52 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (85 packages loaded, 52 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (106 packages loaded, 244 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (113 packages loaded, 752 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (116 packages loaded, 1800 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (118 packages loaded, 2928 targets configured)
+[1 / 1] no actions running
+Analyzing: 5 targets (139 packages loaded, 10112 targets configured)
+[6 / 6] no actions running
+Analyzing: 5 targets (139 packages loaded, 10112 targets configured)
+[6 / 6] no actions running
+
+Bazel caught terminate signal; cancelling pending invocation.
+
+
+Server terminated abruptly (error code: 14, error message: 'recvmsg:Connection reset by peer', log file: '/home/jules/.cache/bazel/_bazel_jules/8c069df52082beee3c95ca17836fb8e2/server/jvm.out')

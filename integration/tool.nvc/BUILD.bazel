@@ -1,0 +1,11 @@
+load("@rules_nvc//build/nvc:rules.bzl", "vhdl_library")
+
+vhdl_library(
+    name = "lib",
+    srcs = [
+        "//:srcs",
+    ],
+    deps = [
+        "@rules_osvvm//tool.nvc:osvvm",
+    ],
+)
