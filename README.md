@@ -11,6 +11,7 @@ A software engineer at Google, passionate about open-source and building efficie
 
 - **[google/rust_icu](https://github.com/google/rust_icu)**: Rust bindings for the ICU (International Components for Unicode) library.
 - **[bazel-ebook](https://github.com/filmil/bazel-ebook)**: Bazel build rules for creating ebooks in PDF, EPUB, and MOBI format.
+- **[synod](https://github.com/filmil/synod)**: a distributed Paxos-driven coordination agent.
 
 More projects can be found on the [repositories page](https://github.com/filmil?tab=repositories).
 
