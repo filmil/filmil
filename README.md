@@ -14,11 +14,11 @@ This page lists my public work from October 2025 to October 2026.
   ([dj3maj](https://github.com/dj3maj)).
   A design is ordinary async Rust, and the library lowers it to Verilog and
   VHDL.
-  - **Vreteno** is the RV32IMAC RISC-V core written in it.
+  - **[Vreteno](https://www.hdlfactory.com/post/2026/09/29/vreteno-a-risc-v-core-in-txhdl/)** is the RV32IMAC RISC-V core written in it.
     It runs at 100 MHz on an Artix-7 board with 1 GiB of DDR3.
     Mainline Linux boots on it to a BusyBox shell, with virtual memory on,
     and Doom runs on it with HDMI output.
-  - **Razboj** is a minimal GPU in about a hundred lines of TxHDL.
+  - **[Razboj](https://www.hdlfactory.com/post/2026/10/06/razboj-a-minimal-gpu-in-txhdl/)** is a minimal GPU in about a hundred lines of TxHDL.
     It reads a display list and draws rectangles and triangles into a
     framebuffer.
   - **[vreteno-conformance](https://github.com/filmil/vreteno-conformance)**
@@ -60,7 +60,7 @@ up, so that a fresh machine builds a bitstream with one command.
   [rules_osvvm](https://github.com/filmil/bazel_rules_osvvm),
   [grlib](https://github.com/filmil/bazel_grlib) (Gaisler's GRLIB and
   NOEL-V), and [rules_ghdl](https://github.com/hw-bzl/rules_ghdl), where I
-  merged 27 changes this year.
+  merged 27 changes in that period.
 - **Firmware:** [rules_opensbi](https://github.com/filmil/bazel_rules_opensbi),
   [rules_dtc](https://github.com/filmil/bazel_rules_dtc) and a bare-metal
   [RISC-V GCC toolchain](https://github.com/filmil/bazel_rules_gcc_riscv64_baremetal).
@@ -83,13 +83,15 @@ nothing installed on the host.
   **[bazel_graphviz](https://github.com/filmil/bazel_graphviz)** and
   **[gotopt2](https://github.com/filmil/gotopt2)** are smaller rule sets and
   tools.
-  I published 43 releases of these modules to the Bazel Central Registry
-  this year.
+
+In that period I published 43 module releases to the
+[Bazel Central Registry](https://registry.bazel.build), across the rule
+sets above.
 
 ## Contributions to other projects
 
 - **[google/rust_icu](https://github.com/google/rust_icu)**, the Rust
-  bindings for ICU, which I maintain: 52 merged changes this year.
+  bindings for ICU, which I maintain: 52 merged changes in that period.
   I moved the build to Bazel, added ICU 74 to 77, and automated the
   releases.
   I also fixed two memory safety bugs in message formatting: a read past
